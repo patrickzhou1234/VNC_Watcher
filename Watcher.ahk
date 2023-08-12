@@ -9,7 +9,7 @@ checkFile:
 fileread newFileContent, C:/Program Files/uvnc bvba/UltraVNC/mslogon.log
 if(newFileContent != lastFileContent) {
     lastFileContent := newFileContent
-    WinActivate, ahk_exe chrome.exe
+    WinActivate, ahk_exe Zoom.exe
     msgbox, detected!
 }
 return
