@@ -1,0 +1,3 @@
+# VNC_Watcher
+Detects when vnc viewer is being used on the current device. 
+Lots of parents use vnc viewer as a way to monitor their children's online presence and look at what they are doing over the network. That is when I came up with the idea of a VNC Detector. I went through the directory where the vnc viewer application binaries are contained and found a log file that indicates when users have logged on (looked at your current computer). This is a detector that actively scans the logs and detects when there is new content (aka when someone has logged on). A message box will pop up in that case alerting you and it will automatically switch to an application of your choice. 
